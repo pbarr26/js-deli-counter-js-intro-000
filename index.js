@@ -11,6 +11,6 @@ for(let i=0; i<katzDeliLine.length; i++ )
 if(katzDeliLine.length ===0)
 return "There is nobody waiting to be served!"
 
-else 
+else
 return katzDeliLine.shift()
 }
