@@ -1,4 +1,4 @@
-function takeANumber(katzDeliLine, newcustomer){
-katzDeliLine.push(newcustomer)
-return 'Welcome,' + 'newcustomer' +'You are number' + 'katzDeliLine.length' + 'in line'
+function takeANumber(katzDeliLine, Ada){
+katzDeliLine.push(Ada)
+return 'Welcome,' + 'Ada' +'You are number' + 'katzDeliLine.length' + 'in line'
 }
