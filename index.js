@@ -22,7 +22,9 @@ function currentLine(katzDeliLine) {
       for(var i = 0; i < katzDeliLine.length; i++) {
         line += (i + 1) + ". " + katzDeliLine[i] + ", "
       }
-      line = line.slice(0, line.length-2)
       return "The line is currently: " + line
     }
 }
+//and returns the current line as a string; for example,
+// if 'katzDeliLine' is currently ["Ada", "Grace"], currentLine(katzDeliLine) would return
+//"The line is currently: 1. Ada, 2. Grace"
