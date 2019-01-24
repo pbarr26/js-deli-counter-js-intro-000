@@ -5,12 +5,12 @@ katzDeliLine.push(name)
 return `Welcome, ${name}. You are number ${katzDeliLine.length} in line`
 }
 
-function nowServing(katzDeliLine) {
-for(let i=0; i<katzDeliLine.length; i++ )
-
-if(katzDeliLine.length ===0)
-return "There is nobody waiting to be served!"
-
-else
-return `Currently serving ${katzDeliLine.shift()}`
+function nowServing(x) {
+  if (x.length === 0) {
+    return "There is nobody waiting to be served!"
+  } else {
+    var name = x[0];
+    x.splice(0, 1);
+    return "Currently serving " + name + ".";
+  }
 }
