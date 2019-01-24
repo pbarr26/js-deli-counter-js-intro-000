@@ -21,5 +21,5 @@ function currentLine(katzDeliLine) {
 }
 
 
-  
+
 }
