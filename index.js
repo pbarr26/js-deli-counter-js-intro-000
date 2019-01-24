@@ -25,6 +25,3 @@ function currentLine(katzDeliLine) {
   return "The line is currently: " + customer.join(", ");
 }
 
-//and returns the current line as a string; for example,
-// if 'katzDeliLine' is currently ["Ada", "Grace"], currentLine(katzDeliLine) would return
-//"The line is currently: 1. Ada, 2. Grace"
